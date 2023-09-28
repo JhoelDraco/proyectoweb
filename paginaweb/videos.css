@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-color: #292b29;
+}
+
+.video-container {
+    max-width: 1000px;
+    margin-left: -40%;
+
+}
+
+video {
+    width: 185%;
+    height: auto;
+    margin-left: -30%;
+}
+header {
+    
+    background-color: #060606;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    margin-top: -600px;
+    text-align: center;
+}
+header h1
+{
+    
+    margin:0%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}

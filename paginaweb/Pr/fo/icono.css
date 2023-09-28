@@ -1,0 +1,42 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+
+@keyframes animate{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: #060606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.icon{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2.5em;
+    border: 2px solid var(--color);
+    animation: animate 3s linear infinite;
+    background: var(--color);
+    box-shadow: 0px 0px 90px 18px var(--color);
+}
+
+.icon:nth-child(even){
+    animation-delay: 1.5s;
+}
